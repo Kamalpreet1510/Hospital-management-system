@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f8f5">
+  <meta name="description" content="A connected space for thoughtful, reliable hospital care.">
+  <title>Northstar Health | Hospital Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main id="app" aria-live="polite">
+    <section class="boot-state" aria-label="Loading application">
+      <span class="brand-mark"><i data-lucide="plus"></i></span>
+      <span>Northstar Health</span>
+      <span class="spinner" aria-label="Loading"></span>
+    </section>
+  </main>
+  <div id="toast-region" class="toast-region" aria-live="assertive"></div>
+</body>
+</html>
